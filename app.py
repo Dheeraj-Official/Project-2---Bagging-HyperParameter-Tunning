@@ -36,7 +36,7 @@ def plot_data(x, y):
 
 # Sidebar for user input
 def sidebar_input():
-    st.sidebar.header("Bagging Regressor")
+    st.sidebar.header("Bagging Regressor - By Dheeraj")
     estimator_choice = st.sidebar.selectbox(
         "Select base estimator",
         ['Decision Tree', 'SVM', 'Linear Regression']
